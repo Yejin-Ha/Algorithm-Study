@@ -27,11 +27,29 @@
         ```
         - 다양하게 활용이 가능하지만 쉽게 무한 loop에 빠질 수 있으니 조심하자
         
-## 2. 이분 탐색
--
-- left : 맨 처음 index
-right : 맨 마지막 index
-mid = (left + right) / 2
+
+## 2. 이분 탐색(이진 탐색)
+- 오름차순으로 `정렬된 리스트`에서 특정 값의 위치를 찾는 알고리즘이다.
+- 중간 값을 선택하여 찾고자 하는 값과의 크고 작음을 비교하는 방법
+> left : 맨 처음 index<br>
+> right : 맨 마지막 index<br>
+> mid = (left + right) / 2
+```python
+# trump : 오름차순으로 정렬된 리스트
+# x : 찾고자 하는 값
+def solution(trump, x):
+    left = 0
+    right = len(trump) -1
+    while (left <= right>) :
+        mid = (left + right) // 2
+        if trump[mid] == x:
+            return mid
+        elif trump[mid] < x:
+            left = mid + 1
+        elif trump[mid] > x:
+            right = mid - 1
+    return mid
+```
 
 ## 3. 깊이 우선 탐색
 
