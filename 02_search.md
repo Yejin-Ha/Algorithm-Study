@@ -51,7 +51,12 @@ def solution(trump, x):
     return mid
 ```
 
-## 3. 깊이 우선 탐색
+## 3. 깊이 우선 탐색 (DFS)
+- Depth First Search
+- 하나의 경우의 수에 대하여 모든 경우의 수를 조사하고 다음 경우의 수를 조사하면서 해를 찾는 과정
+- stack을 이용하여 구현 가능
 
-
-## 4. 너비 우선 탐색
+## 4. 너비 우선 탐색(BFS)
+- Breadth First Search
+- 하나의 경우의 수에 대한 다음 단계의 모든 경우의 수를 조사하면서 해를 찾는 과정
+- Queue를 이용하여 구현 가능
