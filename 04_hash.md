@@ -31,7 +31,8 @@ del hash[(4, 5)]
 <br>
 <br>
 
-### hash 불가능 type
+#
+## hash 불가능 type
 - list(배열) []
 - set(집합) {}
 <br>
